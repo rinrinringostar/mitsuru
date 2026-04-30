@@ -35,7 +35,7 @@ For commands like `git log`, `git diff`, `find`, `rg`, and `npm test`, output is
 
 ```bash
 # From npm:
-npm install -g @rinrinringostar/mitsuru
+npm install -g @rinrinringostarnpm/mitsuru
 
 # From source:
 git clone https://github.com/rinrinringostar/mitsuru.git
