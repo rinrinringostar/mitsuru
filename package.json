@@ -1,5 +1,5 @@
 {
-  "name": "@rinrinringostarnpm/mitsuru",
+  "name": "mitsuru",
   "version": "0.1.2",
   "description": "Local-first Bash output compressor for Claude Code, the loyal partner of miina.",
   "type": "module",

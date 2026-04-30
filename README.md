@@ -34,13 +34,13 @@ For commands like `git log`, `git diff`, `find`, `rg`, and `npm test`, output is
 ## Install
 
 ```bash
-# From npm:
-npm install -g @rinrinringostarnpm/mitsuru
-
-# From source:
+# From source (recommended for now — npm publish pending):
 git clone https://github.com/rinrinringostar/mitsuru.git
 cd mitsuru
 npm install -g .
+
+# Or install directly from GitHub:
+npm install -g git+https://github.com/rinrinringostar/mitsuru.git
 ```
 
 ## Quick start
