@@ -1,6 +1,7 @@
 {
   "name": "mitsuru",
   "version": "0.1.2",
+  "private": true,
   "description": "Local-first Bash output compressor for Claude Code, the loyal partner of miina.",
   "type": "module",
   "bin": {

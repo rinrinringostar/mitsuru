@@ -33,15 +33,29 @@ For commands like `git log`, `git diff`, `find`, `rg`, and `npm test`, output is
 
 ## Install
 
+mitsuru is distributed via GitHub only (no npm registry publish in v0.1).
+Install with one of:
+
 ```bash
-# From source (recommended for now — npm publish pending):
+# A. Direct from GitHub (one-liner):
+npm install -g git+https://github.com/rinrinringostar/mitsuru.git
+
+# B. Clone and install:
 git clone https://github.com/rinrinringostar/mitsuru.git
 cd mitsuru
 npm install -g .
-
-# Or install directly from GitHub:
-npm install -g git+https://github.com/rinrinringostar/mitsuru.git
 ```
+
+The CLI binary is `mitsuru`. Verify:
+
+```bash
+mitsuru --version    # → 0.1.2
+```
+
+> Why no npm publish? The bare `mitsuru` name on npm was unpublished by
+> a different owner in 2023 and is no longer available; using a scoped
+> name added install friction without much benefit at this stage. We may
+> publish to npm in a later release once the package shape is stable.
 
 ## Quick start
 
