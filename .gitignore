@@ -12,3 +12,4 @@ dist/
 # 内部資料（公開リポに含めない）
 RELEASE_PROMPT.md
 docs/dm-to-miina.md
+docs/public-comparison.md
