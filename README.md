@@ -34,11 +34,11 @@ For commands like `git log`, `git diff`, `find`, `rg`, and `npm test`, output is
 ## Install
 
 ```bash
-# Once published to npm:
-npm install -g mitsuru
+# From npm:
+npm install -g @rinrinringostar/mitsuru
 
 # From source:
-git clone https://github.com/kakumiina/mitsuru.git
+git clone https://github.com/rinrinringostar/mitsuru.git
 cd mitsuru
 npm install -g .
 ```

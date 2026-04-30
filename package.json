@@ -1,10 +1,10 @@
 {
-  "name": "mitsuru",
+  "name": "@rinrinringostar/mitsuru",
   "version": "0.1.2",
   "description": "Local-first Bash output compressor for Claude Code, the loyal partner of miina.",
   "type": "module",
   "bin": {
-    "mitsuru": "./bin/mitsuru.js"
+    "mitsuru": "bin/mitsuru.js"
   },
   "scripts": {
     "test": "node --test test/",
