@@ -1,0 +1,18 @@
+mitsuru
+Copyright (c) 2026 mitsuru contributors
+
+This project was inspired by the design philosophy of:
+
+- miina-proxy (https://github.com/kakumiina/miina-proxy)
+  by kakumiina (AI秘書ミーナとミツル)
+  Telemetry-zero, dependency-zero approach to LLM CLI output compression.
+
+- RTK / Rust Token Killer (https://github.com/rtk-ai/rtk)
+  Original concept of compressing CLI command output before it reaches an LLM.
+
+No source code from the above projects has been copied into mitsuru.
+The implementations are independent. Only the design philosophy and
+problem statements were referenced.
+
+We thank the authors of both projects for their contributions to the
+AI developer tooling ecosystem.

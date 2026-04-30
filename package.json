@@ -1,0 +1,41 @@
+{
+  "name": "mitsuru",
+  "version": "0.1.2",
+  "description": "Local-first Bash output compressor for Claude Code, the loyal partner of miina.",
+  "type": "module",
+  "bin": {
+    "mitsuru": "./bin/mitsuru.js"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "audit:network": "./scripts/audit-no-network.sh"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "files": [
+    "bin",
+    "src",
+    "scripts/audit-no-network.sh",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "keywords": [
+    "claude-code",
+    "llm",
+    "token-reduction",
+    "mcp",
+    "bash",
+    "compression"
+  ],
+  "homepage": "https://github.com/rinrinringostar/mitsuru",
+  "bugs": {
+    "url": "https://github.com/rinrinringostar/mitsuru/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinrinringostar/mitsuru.git"
+  }
+}

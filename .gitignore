@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+*.log
+*.tmp.*
+.DS_Store
+coverage/
+.nyc_output/
+dist/
+.cache/
+
+# 内部資料（公開リポに含めない）
+RELEASE_PROMPT.md
+docs/dm-to-miina.md
